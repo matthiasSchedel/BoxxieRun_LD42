@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1812309846246010}
+  m_IsPrefabParent: 1
+--- !u!1 &1812309846246010
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4445353699983472}
+  - component: {fileID: 114360890073995490}
+  m_Layer: 0
+  m_Name: RandomBoxGenerator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4445353699983472
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1812309846246010}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114360890073995490
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1812309846246010}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a7a9ed84c6ac44d49554e685caf4144, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_randomBoxPrefabs:
+  - m_name: FlatBox
+    m_randomBoxPrefab: {fileID: 1669027143700832, guid: 700b10852b97c4b58870657984a74e5d,
+      type: 2}
+    m_hasFeature: 0
+  - m_name: Cylinder
+    m_randomBoxPrefab: {fileID: 1894794188676998, guid: 6968b471d6b80428ca86de5ed61741ee,
+      type: 2}
+    m_hasFeature: 0
+  - m_name: HighBox
+    m_randomBoxPrefab: {fileID: 1730090054832634, guid: 8451ae39e0b7e44d3b90461bad9549a3,
+      type: 2}
+    m_hasFeature: 0
+  m_shelfPrefabs:
+  - m_name: DefaultShelf
+    m_shelfPrefab: {fileID: 1918025578279488, guid: ad2a765aa095441b09001644a042ed81,
+      type: 2}
+    m_hasFeature: 0
+  m_boxColors: []
+  m_box_z_Positions: []
+  m_current_x_position: 0
+  m_y_positions:
+  - 0
+  - 1
+  - 2
